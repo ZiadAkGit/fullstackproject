@@ -2,51 +2,159 @@ body {
 	font-family: "Arial", sans-serif;
 	background-color: #f4f4f4;
 	color: #333;
-    padding: 0px;
-    margin: 0px;
+	padding: 0px;
+	margin: 0px;
 	text-align: center;
+}
+
+.homepage_body {
+	background-image: url("test_outside.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.adoption_body {
+	background-image: url("test_inside.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.dogs_body {
+	background-image: url("dogs_body.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 h1 {
 	background-color: #333;
 	color: #fff;
-    padding: 30px;
-    margin-top: 0px;
-    margin-bottom: 10px;
+	padding: 30px;
+	margin-top: 0px;
+	margin-bottom: 0;
+}
+
+p {
+	text-align: center;
+	width: 50%;
+	margin: 0 0 0 25%;
+	font-size: 18px;
+}
+
+#nav {
+	background-color: #444;
+	padding: 10px;
+	margin: 0 0 0 0;
 }
 
 a {
 	display: inline-block;
-	background-color: #444;
 	color: #fff;
-    padding: 10px;
 	text-decoration: none;
 	margin: 0 10px;
+	font-size: 18px;
 }
 
 table {
 	width: 80%;
-	background-color: #fff;
-	color: #333;
-	border-collapse: collapse;
-	margin: 10px;
+	background-color: transparent;
+	border-radius: 20px;
+	margin: 0 0 0 10%;
+	text-align: center;
 }
 
 th,
 td {
-	padding: 10px;
-	border: 1px solid #ddd;
-	text-align: left;
+	padding: 5px;
+	border-radius: 20px;
+	border: 2px solid #3a3a3a;
 }
 
-img {
-	width: 220px;
-	height: 220px;
+td:hover {
+	background-color: #9ac9c4;
+}
+
+hr {
+	border-color: rgb(124, 124, 124);
+	border-width: 2px;
+	border-style: dashed;
+}
+
+.form {
+	width: 45%;
+	padding: 25px;
+	height: fit-content;
+	border-radius: 30px;
+	margin: 0 auto;
+	background-color: transparent;
+	backdrop-filter: blur(4px);
+}
+
+.volunteer {
+	background-image: url("test_volunteer.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+label {
+	font-size: 20px;
+	text-decoration: underline;
+	font-weight: bold;
+	color: wheat;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+	width: 25%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+textarea {
+	width: fit-content;
+	resize: vertical;
+}
+
+input[type="submit"] {
+	background-color: #2d2d2d;
+	color: #ffffff;
+	padding: 10px;
+	border-radius: 7px;
+	cursor: pointer;
+	width: 20%;
+}
+
+#dog {
+	width: 210px;
+	height: 350px;
 	border-radius: 8px;
 	margin-bottom: 8px;
 }
 
+ul {
+	list-style-type: none;
+	align-items: center;
+}
+
+#shelter_inside_img {
+	border-radius: 8px;
+	margin-bottom: 8px;
+	height: 1270px;
+}
+
+#shelter_outside_img {
+	border-radius: 8px;
+	margin-bottom: 8px;
+	height: 1270px;
+}
+
 h2,
-h3 {    
+h3 {
 	color: #333;
 }
