@@ -28,6 +28,17 @@ body {
 	background-attachment: fixed;
 }
 
+.page4_body {
+	background-image: url("other_pets.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#form_id{
+	color: blue;
+}
+
 h1 {
 	background-color: #333;
 	color: #fff;
@@ -55,6 +66,21 @@ a {
 	text-decoration: none;
 	margin: 0 10px;
 	font-size: 18px;
+}
+
+.other_pets_container{
+	padding: 20px;
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 40%;
+	border-radius: 20px;
+	background-color: white;
+	opacity: 0.8;
+	backdrop-filter: blur(3px);
+}
+
+#adoption_process{
+	color: white;
 }
 
 #dogs_p {
@@ -141,6 +167,11 @@ input[type="submit"] {
 	height: 350px;
 	border-radius: 8px;
 	margin-bottom: 8px;
+	opacity: 0.5;
+}
+
+#dog:hover{
+	opacity: 1;
 }
 
 ul {
