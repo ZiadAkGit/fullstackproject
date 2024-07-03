@@ -176,6 +176,14 @@ input[type="submit"] {
 	width: 20%;
 }
 
+#signCanvas{
+	border: solid;
+	border-radius: 12px;
+	width: 300px;
+	height: 70px;
+	margin-left: 750px;
+}
+
 #dog {
 	width: 210px;
 	height: 350px;
