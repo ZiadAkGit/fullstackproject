@@ -35,12 +35,12 @@ body {
 	background-attachment: fixed;
 }
 
-#form_id{
+#form_id {
 	color: blue;
 }
 
 h1 {
-	font-family: 'Gill Sans MT';
+	font-family: "Gill Sans MT";
 	background-color: #333;
 	color: #fff;
 	padding: 30px;
@@ -62,7 +62,7 @@ p {
 }
 
 a {
-	font-family: 'Times New Roman';
+	font-family: "Times New Roman";
 	display: inline-block;
 	color: #fff;
 	text-decoration: none;
@@ -70,7 +70,7 @@ a {
 	font-size: 18px;
 }
 
-.container{
+.container {
 	padding: 10px;
 	margin: 0 auto;
 	margin-top: 20px;
@@ -81,12 +81,12 @@ a {
 	backdrop-filter: blur(3px);
 }
 
-#volunteer_paragraph{
+#volunteer_paragraph {
 	width: 80%;
 	margin: 0 auto;
 }
 
-#adoption_process{
+#adoption_process {
 	color: black;
 	margin: 0 auto;
 	width: 80%;
@@ -105,7 +105,7 @@ table {
 	text-align: center;
 }
 
-video{
+video {
 	border-radius: 10px;
 }
 
@@ -176,12 +176,12 @@ input[type="submit"] {
 	width: 20%;
 }
 
-#signCanvas{
-	border: solid;
+#signCanvas {
+	position: sticky;
+	border: thin, solid;
 	border-radius: 12px;
 	width: 300px;
-	height: 70px;
-	margin-left: 750px;
+	height: 130px;
 }
 
 #dog {
@@ -192,7 +192,7 @@ input[type="submit"] {
 	opacity: 0.5;
 }
 
-#dog:hover{
+#dog:hover {
 	opacity: 1;
 }
 
