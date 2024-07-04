@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+	<head>
+		<title>Donation Page</title>
+		<link rel="stylesheet" href="donations.css" />
+	</head>
+	<body>
+        <h1>Support Our Cause</h1>
+        <div id="nav">
+			<a href="index.html">About Us</a>
+			<a href="page1.html">Adoption Process</a>
+			<a href="page2.html">Our Dogs</a>
+			<a href="page4.html">Other Pets</a>
+			<a href="page3.html">Volunteer</a>
+			<a href="page5.html">Donations</a>
+		</div>
+		<div class="container">
+			<div class="donation-box">
+				<h2>Make a Donation</h2>
+				<form id="donationForm">
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name" required />
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" required />
+					<label for="amount">Donation Amount:</label>
+					<input type="number" id="amount" name="amount" required />
+					<button type="submit">Donate</button>
+				</form>
+				<div id="thankYouMessage" class="hidden">
+				</div>
+			</div>
+		</div>
+		<script src="donation_script.js"></script>
+	</body>
+</html>

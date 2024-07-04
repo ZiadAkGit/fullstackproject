@@ -1,0 +1,112 @@
+h1 {
+	text-align: center;
+	font-family: "Gill Sans MT";
+	background-color: #333;
+	color: #fff;
+	padding: 30px;
+	margin-top: 0px;
+	margin-bottom: 0;
+}
+#nav {
+	text-align: center;
+	margin: 0 auto;
+	background-color: #444;
+	padding: 10px;
+	margin-bottom: 25px;
+}
+a {
+	font-family: "Times New Roman";
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	margin: 0 10px;
+	font-size: 18px;
+}
+body {
+	background-image: url("shelter_donation.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: Arial, sans-serif;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.container {
+	margin: 0 auto;
+	align-items: center;
+	text-align: center;
+}
+
+.donation-box {
+	margin: 0 auto;
+	margin-top: 200px;
+	background: linear-gradient(135deg, #7d9182 0%, #ffffff 100%);
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+	animation: zoomInOut 5s infinite, fadeIn 2s;
+	width: fit-content;
+}
+
+@keyframes zoomInOut {
+	0%,
+	100% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.1);
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+label {
+	display: block;
+	margin: 10px 0 5px;
+}
+
+input {
+	width: fit-content;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+#amount {
+	width: 70px;
+}
+
+button {
+	margin: 0 auto;
+	background-color: #0cc73b;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+button:hover {
+	background-color: #08981b;
+}
+
+.hidden {
+	display: none;
+}
+
+#thankYouMessage {
+	margin-top: 20px;
+	font-size: 18px;
+	color: #000000;
+}
