@@ -42,13 +42,13 @@ Welcome to **Paws Haven Rescue**, the ultimate destination for pet adoption enth
 ## 📚 Learnings
 
 This project helped me enhance my skills in:
-	•	HTML and CSS for structuring and styling the web pages
-	•	JavaScript for creating dynamic and interactive elements
-	•	jQuery for simplifying DOM manipulation
-	•	Canvas for drawing graphics and animations
-	•	Handling events to create responsive user interactions
-	•	Using arrays for data management
-	•	Implementing Object-Oriented Programming (OOP) concepts in JavaScript
+- HTML and CSS for structuring and styling the web pages
+- JavaScript for creating dynamic and interactive elements
+- jQuery for simplifying DOM manipulation
+- Canvas for drawing graphics and animations
+- Handling events to create responsive user interactions
+- Using arrays for data management
+- Implementing Object-Oriented Programming (OOP) concepts in JavaScript
  
 ## 🤝 Contributing
 
