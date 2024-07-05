@@ -14,3 +14,7 @@ $(canvas).mousemove(function (event) {
 	var y = event.clientY - rect.top;
 	if (check) ctx.fillRect(x, y, 5, 5);
 });
+
+$(document).ready(function () {
+	alert("Please fill in the form below to volunteer 🐾");
+});
