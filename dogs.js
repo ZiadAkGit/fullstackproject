@@ -10,11 +10,9 @@ class Dog {
 	}
 
 	calculate_human_age() {
-		if (this.age <= 1)
-			return `${this.name} age in human years is: ${this.age * 15}`;
-		else if (this.age > 1 && this.age <= 2)
-			return `${this.name} age in human years is: ${this.age * 9}`;
-		else return `${this.name} age in human years is: ${this.age * 4.5}`;
+		if (this.age <= 1) return this.age * 15;
+		else if (this.age > 1 && this.age <= 2) return this.age * 9;
+		else return this.age * 4.5;
 	}
 }
 
@@ -73,6 +71,11 @@ const cooper = new Cooper(
 	"cooper is a cute golden retriver dog that loves tennis balls"
 );
 
-console.log(belle.calculate_human_age());
-console.log(cooper.showDescription());
-console.log(buddy.showDeatils());
+const dogs = [belle, buddy, cooper];
+const div_details = document.getElementById("details");
+
+for (let i = 0; i < dogs.length; i++) {
+	const element = dogs[i];
+	div_details.innerText += `${element.showDeatils()}\n${
+		element.name}'s age in human years is: ${element.calculate_human_age()}\n${element.showDescription()}\n\n`;
+}
